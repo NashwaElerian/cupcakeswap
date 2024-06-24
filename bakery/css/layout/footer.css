@@ -1,0 +1,48 @@
+
+.footer  input[type=submit] {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: bold;
+    font-size: 13px;
+  }
+ .footer  input{
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 14px;
+    
+ }
+
+ .footer .send-email{
+    position: relative;
+ }
+ .footer .send-email .overlay {
+    position: absolute;
+    right: 12px;
+    top: 4px;
+    /* inset: 0; */
+ }
+ .footer .icons-follow i{
+    padding: 20px;
+ }
+ .footer span{
+    font-family: bold;
+ }
+ .footer p{
+    font-family: bold;
+ }
+ .footer .subscribe{
+    font-size: 22px;
+    font-family: bold;
+ }
+
+
+ .footer  li{
+    padding: 5px 0;
+    /* font-family: 10px; */
+ }

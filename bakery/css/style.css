@@ -1,0 +1,76 @@
+/* vendors Folder Style */
+@import url(./vendors/bootstrap.min.css);
+@import url(./vendors/fontawesome.min.css);
+@import url(./vendors/all.min.css);
+@import url(./vendors/animate.css);
+
+/* base Style */
+@import url(./base/base.css);
+
+/* layout Style Start*/
+@import url(/css/layout/header.css);
+@import url(/css/layout/navbar.css);
+@import url(./layout/footer.css);
+
+body{
+    background: rgb(255,255,255);
+/*  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,0,143,1) 44%, rgba(255,0,143,1) 72%, rgba(121,9,89,1) 100%); */
+}
+img{
+    width: 50%;
+}
+nav {
+   display: flex;
+   /* justify-content: start;
+   align-items: start; */
+   justify-content: space-between;
+   padding: 40px;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    margin-left:  30px;
+}
+.container-bg{
+    position: relative;
+    padding: 80px;
+}
+.btn button{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(242, 144, 178);
+    color: #fff;
+    border-radius: 30px;
+}
+.icons {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.icons img{
+    width: 60px;
+    margin-left: 16px;
+    transition: all 0.5s;
+
+}
+.icons img:hover{
+    transform: scale(1.1);
+}
+/* .col-lg-6{
+    position: relative;
+} */
+.main{
+    /* position: absolute; */
+   /* padding: 30px; */
+}
+/* .content{
+    paddingp: 40px;
+} */
+.container{
+    
+}
